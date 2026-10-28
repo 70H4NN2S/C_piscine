@@ -6,7 +6,7 @@ void ft_putnums(char num1, char num2, char num3) {
     write(1, &num3, 1);
 }
 
-void ft_putspace() {
+void ft_putspace(void) {
     write(1, ", ", 2);
 }
 
@@ -29,8 +29,4 @@ void    ft_print_comb(void)
         }
         num1++;
     }
-}
-
-int main(void) {
-    ft_print_comb();
 }

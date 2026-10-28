@@ -19,7 +19,7 @@ void ft_convert_nums(int num1, int num2) {
     }
 }
 
-void ft_print_comb2() {
+void ft_print_comb2(void) {
     int num1 = 0;
     int num2;
 
@@ -31,9 +31,4 @@ void ft_print_comb2() {
         }
         num1++;
     }
-}
-
-int main() {
-    ft_print_comb2();
-    return 0;
 }
